@@ -1,0 +1,188 @@
+{
+  "formatVersion": 1,
+  "version": 2,
+  "generatedAt": "2026-09-24T00:00:00Z",
+  "archetypes": [
+    {
+      "id": "pack-60l",
+      "name": "Backpack 60 L",
+      "category": "pack",
+      "slot": "back",
+      "meshType": "rigid",
+      "defaultRole": "carried",
+      "modelKey": "pack_60l"
+    },
+    {
+      "id": "tent-2p",
+      "name": "Two-person tent",
+      "category": "shelter",
+      "slot": "carried",
+      "meshType": "rigid",
+      "defaultRole": "carried",
+      "modelKey": "tent_2p"
+    },
+    {
+      "id": "bag-3season",
+      "name": "3-season sleeping bag",
+      "category": "sleep",
+      "slot": "carried",
+      "meshType": "rigid",
+      "defaultRole": "carried",
+      "modelKey": "bag_3s"
+    },
+    {
+      "id": "jacket-rain",
+      "name": "Rain jacket",
+      "category": "clothing",
+      "slot": "torso",
+      "meshType": "skinned",
+      "defaultRole": "worn",
+      "modelKey": "jacket_rain"
+    },
+    {
+      "id": "fuel-canister",
+      "name": "Gas canister",
+      "category": "cooking",
+      "slot": "carried",
+      "meshType": "rigid",
+      "defaultRole": "consumable",
+      "modelKey": "canister"
+    }
+  ],
+  "items": [
+    {
+      "id": "trailwright-ridge-60",
+      "brand": "Trailwright",
+      "name": "Ridge 60",
+      "archetypeId": "pack-60l",
+      "weightG": 1800,
+      "volumeL": 60,
+      "priceUsd": 249,
+      "weightSource": "brand-claimed",
+      "includesAccessories": "yes",
+      "sourceUrl": "https://example.test/ridge-60",
+      "colorways": [
+        "Slate",
+        "Ember"
+      ],
+      "specs": {
+        "frame": "internal"
+      }
+    },
+    {
+      "id": "trailwright-ridge-60-lite",
+      "brand": "Trailwright",
+      "name": "Ridge 60 Lite",
+      "archetypeId": "pack-60l",
+      "weightG": 1250,
+      "volumeL": 60,
+      "priceUsd": 329,
+      "weightSource": "brand-claimed",
+      "includesAccessories": "yes",
+      "sourceUrl": "https://example.test/ridge-60-lite",
+      "colorways": [
+        "Slate"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "northfold-shelter-2",
+      "brand": "Northfold",
+      "name": "Shelter 2",
+      "archetypeId": "tent-2p",
+      "weightG": 1600,
+      "volumeL": 4.5,
+      "priceUsd": 399,
+      "weightSource": "retailer",
+      "includesAccessories": "unknown",
+      "sourceUrl": "https://example.test/shelter-2",
+      "colorways": [
+        "Moss"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "northfold-shelter-2-ul",
+      "brand": "Northfold",
+      "name": "Shelter 2 UL",
+      "archetypeId": "tent-2p",
+      "weightG": 1150,
+      "volumeL": 3.8,
+      "priceUsd": 549,
+      "weightSource": "measured",
+      "includesAccessories": "yes",
+      "sourceUrl": "https://example.test/shelter-2-ul",
+      "colorways": [
+        "Moss"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "alpenrow-quilt-0",
+      "brand": "Alpenrow",
+      "name": "Quilt 0",
+      "archetypeId": "bag-3season",
+      "weightG": 780,
+      "volumeL": 5.5,
+      "priceUsd": 289,
+      "weightSource": "brand-claimed",
+      "includesAccessories": "yes",
+      "sourceUrl": "https://example.test/quilt-0",
+      "colorways": [
+        "Ochre",
+        "Fjord"
+      ],
+      "specs": {
+        "tempRatingC": -2
+      }
+    },
+    {
+      "id": "stormlane-shell",
+      "brand": "Stormlane",
+      "name": "Shell Jacket",
+      "archetypeId": "jacket-rain",
+      "weightG": 320,
+      "priceUsd": 180,
+      "weightSource": "brand-claimed",
+      "includesAccessories": "no",
+      "sourceUrl": "https://example.test/shell",
+      "colorways": [
+        "Red",
+        "Black"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "firepeak-canister-230",
+      "brand": "Firepeak",
+      "name": "Canister 230",
+      "archetypeId": "fuel-canister",
+      "weightG": 380,
+      "volumeL": 0.6,
+      "priceUsd": 9,
+      "weightSource": "retailer",
+      "includesAccessories": "no",
+      "sourceUrl": "https://example.test/canister-230",
+      "colorways": [],
+      "specs": {}
+    },
+    {
+      "id": "trailwright-ridge-45",
+      "brand": "Trailwright",
+      "name": "Ridge 45",
+      "archetypeId": "pack-60l",
+      "weightG": 1400,
+      "volumeL": 45,
+      "priceUsd": 219,
+      "weightSource": "brand-claimed",
+      "includesAccessories": "yes",
+      "sourceUrl": "https://example.test/ridge-45",
+      "colorways": [
+        "Slate"
+      ],
+      "specs": {
+        "frame": "internal"
+      }
+    }
+  ]
+}
